@@ -8,14 +8,14 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-        <a href="/" className={styles.title}>Aira Arima</a>
+        <a href="#inicio" className={styles.title}>Aira Arima</a>
         <div className={styles.menu}>
           <img className={styles.menuBtn} src={menuOpen ? getImgPath("nav/closeIcon.png") : getImgPath("nav/menuIcon.png")} alt="menu-button" onClick={() => setMenuOpen(!menuOpen)}/>
             <ul className={`${styles.menuItens} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
-                <li href="#sobre">Sobre</li>
-                <li href="#tecnologias">Tecnologias</li>
-                <li href="#projetos">Projetos</li>
-                <li href="#contato">Contato</li>
+                <li><a href="#sobre" className={styles.menuItem}>Sobre</a></li>
+                <li><a href="#tecnologias" className={styles.menuItem}>Tecnologias</a></li>
+                <li><a href="#projetos" className={styles.menuItem}>Projetos</a></li>
+                <li><a href="#contato" className={styles.menuItem}>Contato</a></li>
             </ul>
         </div>
     </nav>

@@ -4,10 +4,10 @@ import styles from '../Apresentacao/Apresentacao.module.css'
 
 const Apresentacao = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="inicio">
         <div className={styles.content}>
             <h1 className={styles.title}>Hello, World!</h1>
-            <p className={styles.description}>Eu sou a Aira, desenvolvedora fullstack</p>
+            <p className={styles.description}>Eu sou a Aira, desenvolvedora fullstack.</p>
             <a href="#contato" className={styles.contatoBtn}>Entrar em contato</a>
         </div>
         <img src={getImgPath("hero/heroImage.png")} alt="" className={styles.pessoalImg}/>
