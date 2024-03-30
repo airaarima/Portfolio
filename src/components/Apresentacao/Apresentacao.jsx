@@ -1,5 +1,5 @@
 import React from 'react'
-import {getImgPath} from '../../utils'
+import {getImgPath} from '../../data/utils'
 import styles from '../Apresentacao/Apresentacao.module.css'
 
 const Apresentacao = () => {

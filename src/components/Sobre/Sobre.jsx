@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../Sobre/Sobre.module.css'
-import {getImgPath} from '../../utils'
+import {getImgPath} from '../../data/utils'
 
 const Sobre = () => {
   return (
