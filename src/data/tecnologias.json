@@ -1,0 +1,43 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "tecnologias/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "tecnologias/css.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "tecnologias/javascript.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "tecnologias/react.png"
+    },
+    
+    {
+      "title": "Bootstrap",
+      "imageSrc": "tecnologias/bootstrap.png"
+    },
+    {
+      "title": "Java",
+      "imageSrc": "tecnologias/java.png"
+    },
+    {
+      "title": "Spring Boot",
+      "imageSrc": "tecnologias/springboot.png"
+    },
+    {
+      "title": "MySQL",
+      "imageSrc": "tecnologias/mysql.png"
+    },
+    {
+      "title": "Git",
+      "imageSrc": "tecnologias/git.png"
+    },
+    {
+      "title": "GitHub",
+      "imageSrc": "tecnologias/github.png"
+    }
+  ]
