@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Contato.module.css'
-import {getImgPath} from '../../data/utils'
+import {getImgPath} from '../../utils'
 
 const Contato = () => {
   return (
