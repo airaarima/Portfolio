@@ -3,6 +3,7 @@ import Navbar from './components/Nav/Navbar.jsx'
 import Apresentacao from './components/Apresentacao/Apresentacao.jsx'
 import Sobre from './components/Sobre/Sobre.jsx'
 import Tecnologias from './components/Tecnologias/Tecnologias.jsx'
+import Projetos from './components/Projetos/Projetos.jsx'
 import Contato from './components/Contato/Contato.jsx'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Apresentacao/>
       <Sobre/>
       <Tecnologias/>
+      <Projetos/>
       <Contato/>
     </div>
   )
