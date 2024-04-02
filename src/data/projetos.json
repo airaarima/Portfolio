@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Orange Portfólio",
+    "imageSrc": "projects/orangePortfolio.png",
+    "skills": ["React","MUI", "Java", "SpringBoot"],
+    "demo": "https://orange-hackathon-fcs3.onrender.com/",
+    "source": "https://github.com/gabrielisantos-dev/Hackathon-Orange-Juice"
+  },
+    {
+      "title": "EnxameTech",
+      "imageSrc": "projects/enxameTech.png",
+      "skills": ["HTML", "CSS", "JavaScript", "Java", "SpringBoot"],
+      "demo": "https://enxametech.onrender.com/",
+      "source": "https://github.com/EnxameTech/Enxame-Tech"
+    },
+    {
+      "title": "REConecta Turismo",
+      "imageSrc": "projects/reconectaTurismo.png",
+      "skills": ["HTML", "CSS", "Bootstrap"],
+      "demo": "https://airaarima.github.io/Reconecta-Turismo-site/",
+      "source": "https://github.com/airaarima/Reconecta-Turismo-site"
+    }
+  ]
