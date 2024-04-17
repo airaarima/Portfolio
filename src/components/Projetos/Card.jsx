@@ -17,8 +17,8 @@ const Card = ({projeto : {title,imageSrc, description, skills, demo, source}}) =
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>Deploy</a>
-        <a href={source} className={styles.link}>Repositório</a>
+        <a href={demo} target="_blank" className={styles.link}>Deploy</a>
+        <a href={source} target="_blank" className={styles.link}>Repositório</a>
       </div>
     </div>
   );

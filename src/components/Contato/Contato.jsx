@@ -16,11 +16,11 @@ const Contato = () => {
             </div>
             <div className={styles.contentContact}>
                 <img src={getImgPath('contact/linkedinIcon.png')} alt="" />
-                <a href="https://www.linkedin.com/in/airaarima/">linkedin.com/airaarima</a>
+                <a href="https://www.linkedin.com/in/airaarima/" target='_blank'>linkedin.com/airaarima</a>
             </div>
             <div className={styles.contentContact}>
                 <img src={getImgPath('contact/githubIcon.png')} alt="" />
-                <a href="https://github.com/airaarima">github.com/airaarima</a>
+                <a href="https://github.com/airaarima" target='_blank'>github.com/airaarima</a>
             </div>
         </div>
     </section>
